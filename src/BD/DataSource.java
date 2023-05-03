@@ -78,6 +78,8 @@ public static boolean validaUsuario(String usuario, String password){
         
         rs.close();
         stmt.close();
+        
+        
         cn.close();
         
         return false;
